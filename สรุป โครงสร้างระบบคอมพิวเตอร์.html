@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>สรุป โครงสร้างระบบคอมพิวเตอร์</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body background="img/Background.png">
+    <div id="space1"></div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div><img src="img/computer.jpg"></div>
+            <div id="spacetext"></div>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10" style="background-color: rgb(236, 236, 236); height: 2800px;">
+          
+        <div id="spacemain"class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <div style="background-color: white; margin-top: 20px;">
+              <div style="margin-left: 20px; margin-right: 20px;">
+                <h2 style="color: red;">สรุป โครงสร้างระบบคอมพิวเตอร์</h2>
+                <p><b>โครงสร้างของระบบคอมพิวเตอร์</b></p>
+                <p>หน่วยประมวลผลกลาง CPUหน่วยความจำหลัก Main Memory Input/Output   หน่วยควบคุม Contro Unitหน่วยคำนวณและตรรกะ Anthmic and Logtc : AULรีจิสเตอร์
+                  วัฏจักรขั้นตอนการประมวณผลของ CPU  </p>
+                <p>1.การเฟตซ์(Fatch)</p>
+                <p>2.การแปลความหมาย(Decode)</p>
+                <p>3.การเอ็กซีคิวต์(Execule)</p>
+                <p>4.การจัดเก็บ(Store)</p>
+                <p><img src="img/สรุป1.jpg" style="width: 400px;"></p>
+                <p><b>หน่วยวัดความเร็วของซีพียู</b></p>
+                <p>เมกะเฮิรตซ์ (MegaHertz : MHz) เป็นหน่วยความเร็วในไมโครคอมหรือ Clock Speed  เป็นหน่วยวัดความเร็วซีพียูในคอมพิวเตอร์ทั่วไป</p>
+                <p>มิปส์ (Million of Struction Per Second :MIPS)  เป็นหน่วยวัดซีพียูขนาดกลาง เช่นWorkstation , Mainframe</p>
+                <p>ฟลอปส์ (Floating Point Operations Per Second : FLOPS) เป็นหน่วยวัดความเร็วซีพียูในซุปเปอร์คอมพิวเตอร์</p>
+                <p><b>รูปแบบการประมวลผล</b></p>
+                <p>ประมวลผลแบบเดี่ยว (Single Processing) หรือ Sequential Processcing</p>
+                <p>ประมวลผลแบบขนาน (Parallel Processing)</p>
+                <p><b>การทำงานแบบไปป์ไลน์</b></p>
+                <p>ไปป์ไลน์ช่วยให้ CPU เฟ็ตซ์คำสั่งเข้ามาทำงานหลายๆ ตัวในเวลาเดียวกัน
+                  การส่งข้อมูลภายในระบบ</p>
+                <p>การส่งแบบขนาน</p>
+                <p>การส่งแบบอนุกรม</p>
+                <p><b>โครงสร้างบัส</b></p>
+                <p>ส่วนประกอบ System Bus</p>
+                <p>Address Bus</p>
+                <p>Data      Bus</p>
+                <p>Control  Bus</p>
+                <p><b>ประเภทของบัส</b></p>
+                <p>บัส  ISA</p>
+                <p>บัส  PCI</p>
+                <p>บัส  AGP</p>
+                <p>บัส  USB</p>
+                <p>บัส  HPSB</p>
+                <p><b>วิธีการเข้าถึงหน่วยความจำ</b></p>
+                <p>การเข้าถึงแบบเรียงลำดับ  เช่น เทป</p>
+                <p>การเข้าถึงโดยตรง  เช่น  ดิสก์</p>
+                <p>การเข้าถึงแบบสุ่ม  เช่น  หน่วยความจำ Ram</p>
+                <p>การเข้าถึงแบบแอสโซซิเอทีฟ  เช่น  หน่วยความจำแคช</p>
+                <p><b>โปรเซสเซอร์</b></p>
+                <p>ปี 1989 Intel ประกาศตัว 80486 ซึ่งเป็นซีพียูแบบ 32 บิต พร้อมเปิดตัวสิ่งที่เรียกว่า ”ไปป์ไลน์” (Pipeline)</p>
+                <p>ไปป์ไลน์ช่วยให้ซีพียูสามารถเฟ็ตช์คำสั่งเข้ามาทำงานได้หลาย ๆ คำสั่งในเวลาเดียวกันได้ โดยเอ็กซิคิวต์ในแต่ละคำสั่งในแต่ละสัญญาณนาฬิกา (Clock cycle)เรียกการทำงานแบบนี้ว่า “สเกลลาร์” (Scalar)</p>
+                <p>ปี 1993 ได้เปิดตัวซีพียูในยุคที่ 5 ที่เรียกว่า “Pentium” โดยนำไปป์ไลน์มาใส่ไว้ในซีพียูถึง 2 ตัว ทำงานแบบขนานพร้อม ๆ กัน โดยไม่ขึ้นต่อกัน ทำให้สามารถเอ็กซิคิวต์ได้ 2 คำสั่งใน 1 สัญญาณนาฬิกา</p>
+                <p>เรียกสถาปัตยกรรมนี้ว่า “ซุปเปอร์สเกลลาร์” (Superscalar)</p>
+                <p>องค์ประกอบของ CPU</p>
+                <p><img src="img/สรุป2.jpg" style="width: 400px;"></p>
+                <p><b>ไปป์ไลน์ (Pipeline)</b></p>
+                <p>คือการทำงานแบบคาบเกี่ยวกัน (overlap) โดยการแบ่งซีพียูออกเป็นส่วนย่อย ๆ แล้วแบ่งงานกันรับผิดชอบ</p>
+                <p>เดิมไปป์ไลน์เป็นเทคนิคของสถาปัตยกรรมแบบ RISC ต่อมานำมาใช้กับสถาปัตยกรรมแบบ CISC</p>
+                <p>แบ่งเป็นภาคหลัก ๆ คือ</p>
+                <p><b>ขั้นตอนการทำงานของ Pipeline</b></p>
+                <p>ภาคเฟ็ตช์คำสั่ง หรือ Instruction Fetch ส่วนนี้จะทำหน้าที่รับคำสั่งใหม่ ๆ ทั้งจากหน่วยความจำหลัก หรือจาก Instruction Cache เข้ามา</p>
+                <p>ภาคถอดรหัสคำสั่ง หรือ Instruction Decode ส่วนนี้จะทำหน้าที่แยกแยะคำสั่งต่าง ๆ ของ CISC</p>
+                <p>ภาครับข้อมูล หรือ Get Operands  ส่วนนี้ทำหน้าที่รับข้อมูลที่จะใช้ในการเอ็กซิคิวต์เข้ามาเก็บไว้</p>
+                <p>ภาคเอ็กซิคิวต์ หรือ Execute ส่วนนี้เป็นขั้นตอนที่ทำการเอ็กวิคิวต์ตามคำสั่งและโอเปอแรนด์ที่ได้รับมา</p>
+                <p>ภาคเขียนผลลัพธ์ หรือ Write Result เมื่อทำการเอ็กซิคิวต์เสร็จเรียบร้อยแล้ว ผลลัพธ์ที่ได้ก็จะนำไปเก็บไว้ในรีจิสเตอร์ หรือในแคช</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3">
+            <div style="background-color: white; margin-left: 20px; margin-top: 20px;">
+              <div style="margin-left: 20px; margin-right: 20px;">
+                <br>
+                <h3 style="color: grey;">หมวดหมู่</h3>
+                  <hr>
+                <h7>&nbsp;&nbsp;&nbsp;<a href="index.html">หน้าแรก</a></h7>
+                  <hr>
+                <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;โครงสร้างระบบคอมพิวเตอร์<br>
+                <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="โครงสร้าง.html">โครงสร้างระบบคอมพิวเตอร์</a></h7>
+                    <hr>
+                </p>
+                <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;องค์ประกอบของคอมพิวเตอร์<br>
+                  <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="องค์ประกอบ1.html">ฮาร์ดแวร์ (Hardware)</a></h7>
+                    <br>
+                  <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="องค์ประกอบ2.html">ซอฟต์แวร์ (Software)</a></h7>
+                    <hr>
+                </p>
+                <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;วงจรการทำงานของคอมพิวเตอร์<br>
+                  <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="วงจร.html">วงจรการทำงานของคอมพิวเตอร์</a></h7>
+                    <hr>
+                  </p>
+                  <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;ความหมายและความเป็นมา<br>
+                    <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ความหมาย.html">ความหมายและความเป็นมา</a></h7>
+                      <br>
+                    <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ประเภทของระบบ.html">ประเภทของระบบเครือข่ายคอมพิวเตอร์</a></h7>
+                      <br>
+                    <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ความสำคัญของคอมพิวเตอร์.html">ความสำคัญของคอมพิวเตอร์</a></h7>
+                      <br>
+                    <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="วิฒนาการของคอมพิวเตอร์.html">วิฒนาการของคอมพิวเตอร์</a></h7>
+                      <hr>
+                      <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;คอมพิวเตอร์<br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ประโยชน์ของคอมพิวเตอร์.html">ประโยชน์ของคอมพิวเตอร์</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ข้อดี.html">ข้อดีของคอมพิวเตอร์</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ข้อเสีย.html">ข้อเสียของคอมพิวเตอร์</a></h7>
+                          <hr>
+                        </p>
+                      <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;สรุป โครงสร้างระบบคอมพิวเตอร์<br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="สรุป โครงสร้างระบบคอมพิวเตอร์.html">สรุป โครงสร้างระบบคอมพิวเตอร์</a></h7>
+                          <hr>
+                      </p>
+                      <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;ภาษาคอมพิวเตอร์<br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ภาษา.html">ภาษาคอมพิวเตอร์ หมายถึง</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ความเป็นมาภาษา.html">ความเป็นมาภาษาคอมพิวเตอร์</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ระดับภาษา.html">ระดับภาษาคอมพิวเตอร์</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ภาษาในยุคต่างๆ.html">ภาษาในยุคต่างๆ</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="การทำงานของโปรแกรมแปลภาษา.html">การทำงานของโปรแกรมแปลภาษา</a></h7>
+                          <br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ภาษายอดนิยม.html">ภาษายอดนิยม</a></h7>
+                          <br>
+                          <hr>
+                      </p>
+                      <p style="color: rgb(88, 88, 88);">&nbsp;&nbsp;&nbsp;ข้อมูล ผู้จัดทำ<br>
+                        <h7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ผู้จัดทำ.html">ข้อมูล ผู้จัดทำ</a></h7>
+                          <hr>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

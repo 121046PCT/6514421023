@@ -1,0 +1,28 @@
+#space1 {
+    height: 50px;
+}
+img {
+    width: 100%;
+}
+#main1 {
+    text-align: center;
+}
+#spacetext {
+    height: 20px;
+}
+#menu1 {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#spacemain {
+    height: 20px;
+}
+a {
+    color: gray;
+}
+a:hover {
+    color: black;
+}
